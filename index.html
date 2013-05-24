@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Portfolio</title>
+<meta name="description" content="web developer intern portfolio">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript,intern,web developer,web designer">
+<meta http-equiv="content-language" content="en-US" />
+<meta name="author" content="Sibi Chakravarthy">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Puritan' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Sintony' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+<link type="text/css" href="all.css" rel="stylesheet"/>
+<script src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
+<script src="all.js" language="javascript"></script>
+<script src="jquery.airport-1.1.source.js" language="javascript"></script>
+</head>
+<body>
+
+<div id="wrapper">
+	<div id="panel">
+   		<ul id="control">
+		<li class="active" id="home_panel">Home</a></li>
+		<li id="about_panel">About</li>
+		<li id="portfolio_panel">Portfolio</a></li>
+		<li id="snippets_panel">Snippets</a></li>
+		<li id="contact_panel">Contact</a></li>
+        </ul>
+        <hr class="embosed" />
+      
+        <div id="copyright">
+        © 2013 Sibi Chakravarthy
+        </div>
+        
+	</div>
+    <div id="main">
+	  <div id="content">
+      	<div id="content1">
+    		<div id="head">&lt; html &gt;</div>
+        	<div id="slide1"><div id="slide1-1">I'M </div><div id="slide1-2">SIBI</div><div id="slide1-1"> AND I'M A</div><div id="slide1-2"> WEB 		            DEVELOPER</div></div>
+        </div>
+        <div id="content2">
+        	<div id="img2-1">&lt; img &gt;</div>
+        	<div id="img2-2"><img src="images/skyline.png" class="pic"/></div>
+         	<script type="text/javascript" language="javascript">
+				$('#img2-1').mouseenter(function(){
+           		$('#img2-2').show();
+		   		$(this).hide();
+		   		$('#slide2').addClass('ny');
+        		 });
+	    	   $('#img2-2').mouseleave(function() {
+    	       $(this).hide();
+			   $('#img2-1').show();
+		   	   $('#slide2').removeClass('ny');
+         		});
+        	</script>
+       		<div id="slide2"><div id="slide1-1">I LIVE IN </div><div id="slide1-2">NEW YORK CITY</div></div>
+	   </div>  
+       <div id="content3">
+      		<div id="head">&lt; script &gt;</div>
+        	<div id="slide3"><div id="slide3-1">I'M DRIVEN BY </div><div id="air"></div></div>
+        	<script type="text/javascript">
+				$('#air').airport(['curiosity','awesomeness', 'passion']);
+			</script>
+       </div>
+	</div>   <!-- content --> 
+    <div id="about">
+    	<div id="background">
+        <div id="title">&lt; about &gt;</div><br />
+        	<p> When I was little, just like any other kid, I had huge fascination to animations, cartoons and special effects. As I grew, this 			                fascination never faded, on the contrary, I started liking them so much that I wanted to make them myself. I think this is where                 the seed to my web-developer career started taking roots. I learned Flash, and started making 2D animations. Later on I taught                 myself JavaScript and other scripting languages. Gradually my interest to web-development increased and at this moment,                 developing web-sites has become a 'habit'. It has become a part of my everyday chores. That is what keeps me going. And the best                 part is it makes me happy.</p>
+            <p>Apart from web-developing there are other things which I am very interested in. I love food. Loving making them and tasting them.                I make sure I try different cuisines every once in a while. Cars are also something I am very interested in. The BMW Z4 is a car                I'd love to own and that is what I'm pursuing right now. I want to earn enough money to buy a BMW Z4 as soon as possible. Besides                these, I like shopping, partying and reading books. </p>
+        
+        	<p>For a web-developer following blogs is very important to keep updated with the changing trends and also to learn new tricks. I am                an active follower of a few blogs. Here's the list:</p>
+        	<a href="http://www.dustindiaz.com" target="_new">
+            <div id="blog1">DUSTINDIAZ.COM<br />This is a website for JavaScript lovers. The website sheds light on new frameworks, plug-ins,            libraries and best practices.</div></a>
+            <a href="http://css-tricks.com/" target="_new">
+            <div id="blog2">CSS-TRICKS.COM<br />This is one of the website I love checking out. They come up with the best CSS tricks and             techniques especially with CSS3 properties.  </div></a><br />
+            <a href="http://webdesign.tutsplus.com/" target="_new">
+            <div id="blog3"><br />WEBDESIGN.TUTSPLUS.COM<br />This website showcases some of the best web designs on the net and also the              techniques behind them.</div></a>
+            <a href="http://www.quirksmode.org/" target="_new">
+            <div id="blog4"><br />QUIRKSMODE.ORG<br /> You’ll find hype-free assessments of the major browsers’ CSS and JavaScript capabilities              here.
+            </div></a>
+            <p><b><u>These are a few stuff that inspire me:</u></b></p> 
+       
+            	<object type="application/x-shockwave-flash" data="dewplayer/dewplayer-vinyl.swf" id="dewplayer" name="dewplayer"> <param name="wmode" value=                "transparent" /><param name="movie" value="dewplayer-vinyl.swf" /> <param name="flashvars" value="mp3=dewplayer/mp3/burn it                 down.mp3|dewplayer/mp3/work hard play hard.mp3|dewplayer/mp3/pink-try.mp3" /> 
+                </object>
+            
+            <div id="insp_lines"> <marquee  behavior="scroll" direction="up">Curiosity is one of the most permanent <br />and certain 																											             characteristics of a<br /> vigorous intellect.<br /> – Samuel Johnson<br /><br /><br /><br /><br /><br />
+            Remember that guy that gave up?<br /> Neither does anybody else.<br /><br /><br /><br /><br /><br />
+            Work hard, play hard</marquee>
+            </div>
+            <span><div id="title"><br />&lt; /about &gt;</div></span>
+         </div>  <!--background -->         
+        </div>   <!--about -->
+    
+    <div id="portfolio">
+    	<div id="background">
+        	<div id="title"> &lt; portfolio &gt;</div>
+            <p> <b style="font-size:25px"> DIVYA TILES </b><br />
+            This is a website created for one of our clients for their product. The website has a lot of jquery plugins in it to enable 										            animations like image slider. Videos found on the site can be shared on facebook and twitter. There is a image gallery. And in regards            to the back-end features the website is connected to a MySql database. When a query is typed in the search box this database is searched for a            match.Besides these features, a PHP enquiry form is present to send emails directly from the website.<br /> You can visit the website at            www.divyatiles.com </p> <br />
+            <p> <b style="font-size:25px"> NETWORK SNIFFER </b><br />
+            I built a network sniffer for a school project. This was completely using PHP and MySql. Some major features included were socket            functions to set up network between nodes of applications, GD library functions to chop images and send them through the network, file manipulation            functions to determine the type of network packets. <br />
+            MySql was used to store the information from the data packets, both header information and the data that were carried. </p><br />
+            <p> <b style="font-size:25px"> 	VINAYAKA MATRIMONY </b><br />
+            This is a matrimonial website for people to find bride and bridegroom that they think will suit them. This website involves a large            database of registered users. And according to the search criteria and keywords typed in results are generated to bring up the most            suited profiles for the user. Besides this there are other common front-end features like slider, image gallery. The website can be found at            www.vinayakamatrimony.com</p><br />
+            <p><b style="font-size:25px"> CUSTOMER RELATIONSHIP MANAGEMENT TOOL  </b><br />
+            The CRM tool is a great way for the administrator to keep a watch on the users and get to know their activities better. This CRM tool            was designed for an e-commerece website. This tool allowed the administrator to view user complains, add products, remove products, delete users,            check the most frequented product page etc. A framework called CodeIgniter was used.</p><br />
+            <p><b style="font-size:25px"> GOKARNA HOMESTAY  </b><br />
+            This is a simple website built for a resort. This website had all the basic features like jquery slider, image rotator, image gallery. For the            slider a lightbox jquery plugin is used. It also has a PHP form to send emails in it's contact page. The website can be found at            www.gokarnahomestay.com</p>
+            <div id="title"><br />&lt; /portfolio &gt;</div>
+        </div>
+    </div> <!-- portfolio -->
+    <div id="snippets">
+    	<div id="background">
+        	<div id="title"> &lt; snippets &gt; </div>
+            
+            </div>
+    </div>  <!--snippets -->
+    <div id="contact">
+    	<div id="background">
+             <br />
+    	
+             <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=9412+Lefferts+Boulevard,+Queens,+NY&amp;aq=0&amp;oq=9412,+leff&amp;sll=37.602,-95.665&amp;sspn=37.099797,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=94-12+Lefferts+Blvd,+Queens,+New+York+11419&amp;t=m&amp;z=14&amp;ll=40.693497,-73.828064&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=9412+Lefferts+Boulevard,+Queens,+NY&amp;aq=0&amp;oq=9412,+leff&amp;sll=37.6,-95.665&amp;sspn=37.099797,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=94-12+Lefferts+Blvd,+Queens,+New+York+11419&amp;t=m&amp;z=14&amp;ll=40.693497,-73.828064" style="color:#FFFFFF;text-align:left" target="_new">View Larger Map</a></small><br />
+             <p>I live in Queens, New York. If you would like me to help you in your projects, or for any comments and questions you can reach me at 718-496-8173. </p>  <br />
+             <form action="contact.php" method="post">
+             OR 
+             <table>
+            <tr><td> Name:</td><td> <input type="textbox" required="required" name="name"></td></tr><tr><td> Email:</td><td> <input type="email" required="required" name="email"/></td></tr>
+             <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;Message:</td><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <textarea required="required" height="300px" width="300px" name="message"> </textarea></td></tr><br />
+             </table>
+             <button value="submit">Submit</button>
+             
+             </form>
+        
+      </div>
+    </div> <!-- contact -->
+    </div> <!--main -->
+  
+  </div>  <!-- wrapper -->
+ </body>
+</html>
